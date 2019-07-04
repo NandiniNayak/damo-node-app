@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./app/bin/www",
-    "test": "./node_modules/.bin/mocha --reporter mocha-junit-reporter"
+    "test": "mocha --reporter mocha-junit-reporter"
   },
   "dependencies": {
     "chai": "^4.2.0",
